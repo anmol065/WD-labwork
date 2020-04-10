@@ -1,0 +1,20 @@
+<html>
+<head>
+<title>closure function</title>
+</head>
+<body>
+<script>
+function addnumbers(firstno,secondno)
+{
+    var returnvalue="result is:";
+    function add()
+    {
+        return returnvalue + (firstno+secondno);
+    }
+return add();
+}
+var result=addnumbers(5,10);
+document.write(result);
+</script>
+</body>
+</html>
